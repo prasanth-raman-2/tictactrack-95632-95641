@@ -1,237 +1,32 @@
-INFO:     Started server process [16509]
+INFO:     Started server process [21451]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:3001 (Press CTRL+C to quit)
-INFO:     100.64.4.167:35760 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:35758 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:35764 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:35778 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:35788 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:35804 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40872 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40874 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40888 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40892 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40900 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40906 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:53670 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:53680 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:53684 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:53686 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:53702 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:53710 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48272 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48260 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48298 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48270 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48302 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48308 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48312 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48314 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48330 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48340 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:54930 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:39300 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:39314 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:39318 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:39324 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:39334 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:39346 - "OPTIONS /game/start HTTP/1.1" 200 OK
-INFO:     100.64.4.167:39358 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:37944 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:37956 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:37946 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:37958 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:37972 - "OPTIONS /game/start HTTP/1.1" 200 OK
-INFO:     100.64.4.167:37974 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:55878 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:55892 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55898 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:55910 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:55914 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:47854 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:47858 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:47872 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:47886 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:47898 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:47906 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:47908 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:38964 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:38966 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:38982 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:38984 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:38992 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:39002 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:39008 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:59696 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:59698 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:59708 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:59712 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:59716 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:59718 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:43886 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:43900 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:43914 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:43926 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:43932 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:43946 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:43960 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:46364 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:46368 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:46374 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:46382 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:46384 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:46392 - "GET /game/state?game_id=Ssad HTTP/1.1" 404 Not Found
-INFO:     100.64.4.167:35678 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:35694 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:37654 - "OPTIONS /game/start HTTP/1.1" 200 OK
-INFO:     100.64.4.167:37666 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:57800 - "OPTIONS /game/start HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57812 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:46134 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:46144 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:46150 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:46166 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:46178 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:46188 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:46204 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:46220 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40316 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40330 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40344 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40356 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:37114 - "HEAD /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:37124 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51880 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51882 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51884 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51896 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51900 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:51912 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:51916 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51920 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36514 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36524 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36528 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36530 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36540 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36550 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36566 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36578 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36592 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36594 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36608 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:55082 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:55090 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55100 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55096 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55108 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55114 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55130 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55142 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55146 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55156 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:55160 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:44492 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:44500 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:44510 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:44520 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:44528 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40692 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40698 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40696 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40718 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40730 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40738 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40742 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40756 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40760 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40776 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40784 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40786 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40796 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40798 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40800 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40820 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40828 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40840 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40850 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40864 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:40878 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36634 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36636 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36652 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36654 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36670 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36676 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36684 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:36694 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:48788 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48792 - "GET /history/ HTTP/1.1" 200 OK
-INFO:     100.64.4.167:48804 - "OPTIONS /game/start HTTP/1.1" 200 OK
-INFO:     100.64.4.167:54842 - "POST /game/start HTTP/1.1" 422 Unprocessable Entity
-INFO:     100.64.4.167:39128 - "OPTIONS /game/start HTTP/1.1" 200 OK
-INFO:     100.64.4.167:47786 - "POST /game/start HTTP/1.1" 500 Internal Server Error
-ERROR:    Exception in ASGI application
-Traceback (most recent call last):
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
-    result = await app(  # type: ignore[func-returns-value]
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
-    return await self.app(scope, receive, send)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
-    await super().__call__(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
-    raise exc
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
-    await self.app(scope, receive, _send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
-    await self.simple_response(scope, receive, send, request_headers=headers)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
-    await self.app(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
-    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    raise exc
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
-    await app(scope, receive, sender)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
-    await route.handle(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
-    await self.app(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
-    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    raise exc
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
-    await app(scope, receive, sender)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
-    response = await f(request)
-               ^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
-    raw_response = await run_endpoint_function(
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
-    return await run_in_threadpool(dependant.call, **values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
-    return await anyio.to_thread.run_sync(func)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
-    return await get_async_backend().run_sync_in_worker_thread(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2470, in run_sync_in_worker_thread
-    return await future
-           ^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 967, in run
-    result = context.run(func, *args)
-             ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 163, in start_game
+INFO:     100.64.4.167:59102 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59112 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59114 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59122 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59138 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59148 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59150 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59156 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59168 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59184 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59188 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59190 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59206 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59220 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59226 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59240 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59242 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59244 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59258 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59268 - "GET /openapi.json HTTP/1.1" 200 OK
+Exception in /game/start: 1 validation error for CreateGameResponse
+players.O
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type Traceback (most recent call last):
+  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 168, in start_game
     return CreateGameResponse(
            ^^^^^^^^^^^^^^^^^^^
   File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
@@ -241,73 +36,13 @@ pydantic_core._pydantic_core.ValidationError: 1 validation error for CreateGameR
 players.O
   Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
     For further information visit https://errors.pydantic.dev/2.11/v/string_type
-INFO:     100.64.4.167:51494 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51508 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51512 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51518 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51526 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:51540 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59944 - "POST /game/start HTTP/1.1" 500 Internal Server Error
-ERROR:    Exception in ASGI application
-Traceback (most recent call last):
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 409, in run_asgi
-    result = await app(  # type: ignore[func-returns-value]
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
-    return await self.app(scope, receive, send)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
-    await super().__call__(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 112, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 187, in __call__
-    raise exc
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 165, in __call__
-    await self.app(scope, receive, _send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 93, in __call__
-    await self.simple_response(scope, receive, send, request_headers=headers)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 144, in simple_response
-    await self.app(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
-    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    raise exc
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
-    await app(scope, receive, sender)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 714, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 734, in app
-    await route.handle(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 288, in handle
-    await self.app(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 76, in app
-    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    raise exc
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
-    await app(scope, receive, sender)
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 73, in app
-    response = await f(request)
-               ^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 301, in app
-    raw_response = await run_endpoint_function(
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 214, in run_endpoint_function
-    return await run_in_threadpool(dependant.call, **values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/starlette/concurrency.py", line 37, in run_in_threadpool
-    return await anyio.to_thread.run_sync(func)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/anyio/to_thread.py", line 56, in run_sync
-    return await get_async_backend().run_sync_in_worker_thread(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 2470, in run_sync_in_worker_thread
-    return await future
-           ^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 967, in run
-    result = context.run(func, *args)
-             ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 163, in start_game
+
+INFO:     100.64.4.167:37542 - "POST /game/start HTTP/1.1" 500 Internal Server Error
+Exception in /game/start: 1 validation error for CreateGameResponse
+players.O
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type Traceback (most recent call last):
+  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 168, in start_game
     return CreateGameResponse(
            ^^^^^^^^^^^^^^^^^^^
   File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
@@ -317,3 +52,29 @@ pydantic_core._pydantic_core.ValidationError: 1 validation error for CreateGameR
 players.O
   Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
     For further information visit https://errors.pydantic.dev/2.11/v/string_type
+
+INFO:     100.64.4.167:57106 - "POST /game/start HTTP/1.1" 500 Internal Server Error
+INFO:     100.64.4.167:57114 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57126 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57130 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57138 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57140 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57142 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57158 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:57168 - "GET /openapi.json HTTP/1.1" 200 OK
+Exception in /game/start: 1 validation error for CreateGameResponse
+players.O
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type Traceback (most recent call last):
+  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 168, in start_game
+    return CreateGameResponse(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for CreateGameResponse
+players.O
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+
+INFO:     100.64.4.167:57172 - "POST /game/start HTTP/1.1" 500 Internal Server Error

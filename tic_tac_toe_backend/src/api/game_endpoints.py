@@ -149,7 +149,8 @@ def start_game(req: CreateGameRequest):
         if mode == "ai":
             players['O'] = 'AI'
         else:
-            players['O'] = None  # To be filled by join
+            # Return a placeholder until another player joins, must be a string not None
+            players['O'] = "Waiting"
 
         board = create_empty_board()
         games[game_id] = {
