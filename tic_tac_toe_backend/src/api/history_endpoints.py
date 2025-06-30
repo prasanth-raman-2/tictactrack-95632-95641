@@ -43,9 +43,18 @@ def get_history_by_game(game_id: str = Query(..., description="Game ID to retrie
     "/games_by_player",
     response_model=GameListResponse,
     summary="List games for a player",
-    description="Get all games involving a given player name."
+    description=(
+        "Get all games involving a given player name."
+    ),
 )
-def list_games_for_player(player: str = Query(..., description="Player name to filter games by (either as X or O)")):
+def list_games_for_player(
+    player: str = Query(
+        ...,
+        description=(
+            "Player name to filter games by (either as X or O)"
+        ),
+    )
+):
     """
     Returns a list of games the player participated in.
     """
@@ -53,14 +62,18 @@ def list_games_for_player(player: str = Query(..., description="Player name to f
     for game_id, game in games.items():
         players = game["players"]
         if players.get("X") == player or players.get("O") == player:
-            result.append({
-                "game_id": game_id,
-                "mode": game["mode"],
-                "players": players,
-                "winner": game.get("winner"),
-                "draw": game.get("draw"),
-            })
-    return GameListResponse(games=result)
+            result.append(
+                {
+                    "game_id": game_id,
+                    "mode": game["mode"],
+                    "players": players,
+                    "winner": game.get("winner"),
+                    "draw": game.get("draw"),
+                }
+            )
+    return GameListResponse(
+        games=result
+    )
 
 
 # PUBLIC_INTERFACE

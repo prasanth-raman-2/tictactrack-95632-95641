@@ -128,6 +128,7 @@ def move_to_dict(player, row, col):
         "Creates a new Tic Tac Toe game. Specify mode as 'human' or 'ai'. "
         "Returns new game ID."
     ),
+    status_code=201,
     responses={201: {"model": CreateGameResponse}},
 )
 def start_game(req: CreateGameRequest):
@@ -140,32 +141,41 @@ def start_game(req: CreateGameRequest):
     Returns:
         CreateGameResponse: Details of the new game.
     """
-    game_id = str(uuid.uuid4())
-    mode = req.mode
-    players = {}
-    players['X'] = req.player_name
-    if mode == "ai":
-        players['O'] = 'AI'
-    else:
-        players['O'] = None  # To be filled by join
+    try:
+        game_id = str(uuid.uuid4())
+        mode = req.mode
+        players = {}
+        players['X'] = req.player_name
+        if mode == "ai":
+            players['O'] = 'AI'
+        else:
+            players['O'] = None  # To be filled by join
 
-    board = create_empty_board()
-    games[game_id] = {
-        "board": board,
-        "players": players,
-        "mode": mode,
-        "next_turn": 'X',
-        "winner": None,
-        "draw": False,
-    }
-    game_histories[game_id] = []
+        board = create_empty_board()
+        games[game_id] = {
+            "board": board,
+            "players": players,
+            "mode": mode,
+            "next_turn": 'X',
+            "winner": None,
+            "draw": False,
+        }
+        game_histories[game_id] = []
 
-    return CreateGameResponse(
-        game_id=game_id,
-        board=board,
-        next_turn="X",
-        players=players
-    )
+        # Defensive: ensure object values are list-of-list-of-None-or-str for board
+        api_board = [[cell if cell is not None else None for cell in row] for row in board]
+
+        return CreateGameResponse(
+            game_id=game_id,
+            board=api_board,
+            next_turn="X",
+            players=players
+        )
+    except Exception as e:
+        # Log the exception and return a well-formed HTTP error
+        import traceback
+        print("Exception in /game/start:", e, traceback.format_exc())
+        raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
 
 
 # PUBLIC_INTERFACE
