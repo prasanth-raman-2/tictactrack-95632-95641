@@ -1,80 +1,173 @@
-INFO:     Started server process [21451]
+INFO:     Started server process [22049]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:3001 (Press CTRL+C to quit)
-INFO:     100.64.4.167:59102 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59112 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59114 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59122 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59138 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59148 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59150 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59156 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59168 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59184 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59188 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59190 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59206 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59220 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59226 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59240 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59242 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59244 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59258 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:59268 - "GET /openapi.json HTTP/1.1" 200 OK
-Exception in /game/start: 1 validation error for CreateGameResponse
-players.O
-  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/string_type Traceback (most recent call last):
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 168, in start_game
-    return CreateGameResponse(
-           ^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
-    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-pydantic_core._pydantic_core.ValidationError: 1 validation error for CreateGameResponse
-players.O
-  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/string_type
-
-INFO:     100.64.4.167:37542 - "POST /game/start HTTP/1.1" 500 Internal Server Error
-Exception in /game/start: 1 validation error for CreateGameResponse
-players.O
-  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/string_type Traceback (most recent call last):
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 168, in start_game
-    return CreateGameResponse(
-           ^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
-    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-pydantic_core._pydantic_core.ValidationError: 1 validation error for CreateGameResponse
-players.O
-  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/string_type
-
-INFO:     100.64.4.167:57106 - "POST /game/start HTTP/1.1" 500 Internal Server Error
-INFO:     100.64.4.167:57114 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57126 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57130 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57138 - "HEAD /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57140 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57142 - "GET /docs HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57158 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:     100.64.4.167:57168 - "GET /openapi.json HTTP/1.1" 200 OK
-Exception in /game/start: 1 validation error for CreateGameResponse
-players.O
-  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/string_type Traceback (most recent call last):
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/src/api/game_endpoints.py", line 168, in start_game
-    return CreateGameResponse(
-           ^^^^^^^^^^^^^^^^^^^
-  File "/home/kavia/workspace/code-generation/tictactrack-95632-95641/tic_tac_toe_backend/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
-    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-pydantic_core._pydantic_core.ValidationError: 1 validation error for CreateGameResponse
-players.O
-  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
-    For further information visit https://errors.pydantic.dev/2.11/v/string_type
-
-INFO:     100.64.4.167:57172 - "POST /game/start HTTP/1.1" 500 Internal Server Error
+INFO:     100.64.4.167:51248 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:51258 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46576 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46568 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46584 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46598 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46626 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46610 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46630 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46634 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46638 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46652 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46660 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50054 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50064 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50072 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50088 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50092 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50094 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50110 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50126 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:50132 - "POST /game/start HTTP/1.1" 201 Created
+INFO:     100.64.4.167:48928 - "OPTIONS /game/start HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48934 - "POST /game/start HTTP/1.1" 201 Created
+INFO:     100.64.4.167:48944 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48946 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48954 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47148 - "OPTIONS /game/move HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47162 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47178 - "POST /game/move HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47182 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47194 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47210 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47220 - "POST /game/move HTTP/1.1" 400 Bad Request
+INFO:     100.64.4.167:47226 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47240 - "POST /game/move HTTP/1.1" 400 Bad Request
+INFO:     100.64.4.167:47242 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47258 - "GET /history/by_game?game_id=17ace461-8759-42b5-b278-16f7b16731c0 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47274 - "POST /game/start HTTP/1.1" 201 Created
+INFO:     100.64.4.167:47290 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47298 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47306 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47310 - "POST /game/move HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47318 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47328 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:47330 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:55500 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:55504 - "POST /game/move HTTP/1.1" 400 Bad Request
+INFO:     100.64.4.167:55506 - "POST /game/move HTTP/1.1" 400 Bad Request
+INFO:     100.64.4.167:55510 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:55516 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:55518 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:55526 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:55528 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:55538 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46334 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46342 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46356 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46364 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46376 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:46390 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36830 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36844 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36856 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36860 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36876 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36880 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36888 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41416 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41428 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41440 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41454 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41466 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41482 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41494 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59530 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59536 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59542 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59550 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59552 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:59560 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:32842 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:32850 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:32852 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:32862 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:32868 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:32880 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:32896 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41736 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41744 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41752 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41754 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41766 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41778 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:41784 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36728 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36744 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36752 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36754 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36764 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36774 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:39036 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:39044 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:39056 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:39070 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:39078 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:39082 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:39094 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52972 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52986 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52996 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:53006 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:53010 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:53016 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:53032 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:33720 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:33728 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:33744 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:33760 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:33774 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:33178 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:54872 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36088 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36092 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36098 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36108 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36116 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36118 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36140 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36150 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36166 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36168 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36176 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36192 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36204 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36218 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36234 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36250 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36252 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36268 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36278 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36286 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36288 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36302 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36308 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36310 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:36324 - "GET /docs HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52618 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52622 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52628 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52632 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52648 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52662 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52676 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52686 - "POST /game/start HTTP/1.1" 201 Created
+INFO:     100.64.4.167:52694 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52702 - "GET /history/by_game?game_id=40d0f0b1-4273-4e62-92da-e5e4429c857b HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52712 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52718 - "GET /history/by_game?game_id=40d0f0b1-4273-4e62-92da-e5e4429c857b HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52722 - "OPTIONS /game/move HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52726 - "POST /game/move HTTP/1.1" 200 OK
+INFO:     100.64.4.167:52734 - "GET /history/by_game?game_id=40d0f0b1-4273-4e62-92da-e5e4429c857b HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48168 - "GET /history/by_game?game_id=40d0f0b1-4273-4e62-92da-e5e4429c857b HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48180 - "GET /history/games_by_player?player=Test HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48184 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48190 - "POST /game/move HTTP/1.1" 400 Bad Request
+INFO:     100.64.4.167:48206 - "GET /history/by_game?game_id=40d0f0b1-4273-4e62-92da-e5e4429c857b HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48222 - "GET /history/by_game?game_id=cb29c167-c9ba-4311-8d99-5f4fd5cae915 HTTP/1.1" 200 OK
+INFO:     100.64.4.167:48238 - "GET /history/by_game?game_id=40d0f0b1-4273-4e62-92da-e5e4429c857b HTTP/1.1" 200 OK
